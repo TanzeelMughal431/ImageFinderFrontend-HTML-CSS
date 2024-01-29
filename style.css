@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+body{
+    line-height: 1.6;    
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 0 0;
+    background-color: #151620;
+    color:white;
+    border-top:3px solid rgb(1, 251, 1);
+    box-shadow: 0 09px 34px #080d05;
+}
+
+form{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 10px 20px; 
+}
+#Search-input{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 01px 10px 30px rgba(48, 161, 254, 0.83);
+    border-radius: 6px;
+    font-size: 15px;
+    color: #333;
+}
+#Search-input:hover{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 80px rgb(0, 140, 255);
+    border-radius: 6px;
+    font-size: 15px;
+    color: #0396ff;
+
+}
+
+#Search-button{
+    padding: 10px 20px;
+    margin-left: 8px;
+    border: none;
+    box-shadow: 01px 10px 30px rgba(14, 150, 44, 0.83);
+    border-radius: 6px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(103, 216, 21);
+    cursor: pointer;
+}
+
+#Search-button:hover{
+    padding: 10px 20px;
+    margin-left: 8px;
+    border: none;
+    box-shadow: 4px 0 60px rgb(0, 255, 55);
+    border-radius: 6px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(137, 252, 54);
+}
+
+.search-results
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-result{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 9px coral;
+    overflow: hidden;
+}
+.search-result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2 ease-in-out;
+}
+
+.search-results img:hover{
+    opacity: 0.8;
+}
+
+.search-result a{
+    text-decoration: none;
+    padding-left: 14px;
+}
